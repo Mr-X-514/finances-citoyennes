@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "Finances citoyennes — Comprendre l’argent public",
   description: "Explorez les finances publiques du Québec : revenus, dépenses, dette et sources officielles, expliqués simplement.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.svg`,
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.svg`,
   },
 };
 
